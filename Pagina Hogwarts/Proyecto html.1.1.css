@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(253, 230, 200);
+
+}
+
+header {
+    background-color: rgb(77, 12, 12); 
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: fixed;
+
+}
+
+
+header a img {
+    width: 8rem;
+
+}
+
+.barra ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.barra {
+    width: 100%;
+    position: fixed;
+}
+
+.barra ul li a {
+    color: azure;
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+
+}
+
+.barra ul li a:hover{
+    color:rgb(255, 251, 0);
+    font-size: 1.2rem;
+
+} 
+
+.contenedor1 {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.contenedor1 img {
+    height: 40rem;
+
+}
+
+header a {
+    z-index: 10;
+}
+
+main img{
+    padding-top: 10rem;
+    width: 40rem;
+    padding-left: 23rem;
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(253, 230, 200);
+    
+    }
+    
+    header {
+        background-color: rgb(77, 12, 12); 
+        width: 100%;
+        height: auto;
+        padding: 0.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: fixed;
+    
+    }
+    
+    
+    header a img {
+        width: 4rem;
+    
+    }
+    
+    .barra ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    
+    }
+    
+    .barra {
+        width: 100%;
+        position: fixed;
+    }
+    
+    .barra ul li a {
+        color: azure;
+        text-decoration: none;
+        padding: 1Rem;
+        display: flex;
+        justify-content: space-between;
+        transition: all 0.5s;
+    
+    }
+    
+    .barra ul li a:hover{
+        color:rgb(255, 251, 0);
+        font-size: 1.05rem;
+    
+    } 
+    main img{
+        padding-top: 10.25rem;
+        width: 20rem;
+        padding-left: 8.5rem;
+    
+    }
+    body {
+        background-color: rgb(253, 230, 200);
+    
+    }
+    
+    header {
+        background-color: rgb(77, 12, 12); 
+        width: 100%;
+        height: auto;
+        padding: 0.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: fixed;
+    
+    }
+    
+    
+    header a img {
+        width: 4rem;
+    
+    }
+    
+    .barra ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    
+    }
+    
+    .barra {
+        width: 100%;
+        position: fixed;
+    }
+    
+    .barra ul li a {
+        color: azure;
+        text-decoration: none;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        transition: all 0.5s;
+    
+    }
+    
+    .barra ul li a:hover{
+        color:rgb(255, 251, 0);
+        font-size: 0.6rem;
+    
+    } 
+    
+
+
+}

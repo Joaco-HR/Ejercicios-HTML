@@ -1,0 +1,26 @@
+*{
+    background-color:lightgoldenrodyellow
+}
+
+h1{
+    color:indianred;
+    text-decoration: underline;
+    font-size: 300%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+img{
+    text-align:center;
+
+}
+a{
+    color:rgb(205, 50, 184);
+    font-size: 120%;
+    text-decoration: underline;
+
+}

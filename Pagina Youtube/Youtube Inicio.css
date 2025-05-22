@@ -1,0 +1,26 @@
+*{
+    background-color:lightgoldenrodyellow
+}
+
+h1{
+    color:indianred;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 300%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    color:limegreen;
+    font-size: 120%;
+    text-decoration: underline;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:limegreen;
+    font-size: 120%;
+    text-decoration: underline;
+
+}

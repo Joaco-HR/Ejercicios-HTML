@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 230, 200);
+
+}
+
+header {
+  background-color: rgb(77, 12, 12);
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: fixed;
+
+}
+
+header a img {
+  width: 8rem;
+
+}
+
+main {
+  padding-top: 8rem;
+}
+
+.barra ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.barra {
+  width: 100%;
+  position: fixed;
+}
+
+.barra ul li a {
+  color: azure;
+  text-decoration: none;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s;
+
+}
+
+.barra ul li a:hover {
+  color: rgb(255, 251, 0);
+  font-size: 1.4rem;
+
+}
+
+h2 {
+  color: indianred;
+  text-decoration: underline;
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  font-size: 1, 5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contenedor1 {
+  background-color: rgb(253, 230, 200);
+
+}
+
+.contenedor2 {
+  background-color: rgb(253, 230, 200);
+}
+
+footer {
+  background-color: rgb(255, 206, 143);
+  width: 100%;
+  margin-top: 6rem;
+  height: auto;
+  padding: 0rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  padding-top: 0%;
+  padding-bottom: 0%
+}
+
+footer .contenedor3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: rgb(194, 109, 6);
+  font-size: 1, 5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+footer .contenedor3 img {
+  height: 7rem;
+
+}
+
+footer .contenedor3 p {
+  padding-left: 1rem;
+
+}
+
+footer .link h2 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+footer .Creador {
+  padding-right: 2rem;
+
+}
+
+footer .Creador h2 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+footer .Creador p {
+  color: rgb(17, 26, 105);
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header a {
+  z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(253, 230, 200);
+
+  }
+
+  header {
+    background-color: rgb(77, 12, 12);
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: fixed;
+
+  }
+
+  header a img {
+    width: 4rem;
+
+  }
+
+  main {
+    padding-top: 7rem;
+  }
+
+  .barra ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+  }
+
+  .barra {
+    width: 100%;
+    position: fixed;
+  }
+
+  .barra ul li a {
+    color: azure;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+
+  }
+
+  .barra ul li a:hover {
+    color: rgb(255, 251, 0);
+    font-size: 0.7rem;
+
+  }
+
+  h2 {
+    color: indianred;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  main {
+    font-size: 0.75rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .contenedor1 {
+    background-color: rgb(253, 230, 200);
+
+  }
+  .contenedor1 h2{
+    font-size: 1.6rem;
+
+  }
+
+  .contenedor1 p{
+    font-size: 0.4;
+
+  }
+
+  .contenedor2 {
+    background-color: rgb(253, 230, 200);
+  }
+
+  footer {
+    background-color: rgb(255, 206, 143);
+    width: 100%;
+    margin-top: 3rem;
+    height: auto;
+    padding: 0rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding-top: 0%;
+    padding-bottom: 0%
+  }
+
+  footer .contenedor3 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: rgb(194, 109, 6);
+    font-size: 0.75rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  footer .contenedor3 img {
+    height: 3.5rem;
+
+  }
+
+  footer .contenedor3 p {
+    padding-left: 0.5rem;
+
+  }
+
+  footer .link h2 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  footer .Creador {
+    padding-right: 1rem;
+
+  }
+
+  footer .Creador h2 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  footer .Creador p {
+    color: rgb(17, 26, 105);
+    font-size: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  header a {
+    z-index: 10;
+  }
+}
