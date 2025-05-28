@@ -1,0 +1,69 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Front_Practice</title>
+        <link rel="stylesheet" href="./Front_Practice.css">
+    </head>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll(".Barra a,.Barra2 ul li a");
+        const currentPage = window.location.pathname.split("/").pop();
+
+        links.forEach(link => {
+          const linkHref = link.getAttribute("href").split("/").pop();
+          if (linkHref === currentPage) {
+            link.classList.add("activo");
+          }
+        });
+      });
+    </script>
+    <body>
+        <header>
+            <nav class="Barra">
+            <ul>
+                <li><a href="#"><img src="Logo.png" alt="Logo" /></a></li>
+                <li><a href="#">Live</a></li>
+                <li><a href="#">Push</a></li>
+                <li><a href="#">Move</a></li>
+                <li><a href="#">Note</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Packs</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="Front_Practice.html">More</a></li>
+            </ul>
+            </nav>
+            <nav class="Barra2">
+                <ul>
+                    <li><a href="Front_Practice.html">About</a></li>
+                    <li><a href="Front_Practice_2.html">Jobs</a></li>
+                    <li><a href="#">Apprenticeships</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="contenedor">
+        <section class="Texto">
+        <img src="Abeloton Imagen.png" alt="Abeloton Imagen 1">
+        <h2>
+            We make 
+            <a href="#">Live</a>, 
+            <a href="#">Push</a>, 
+            <a href="#">Move</a>, 
+            <a href="#">Note</a>, 
+            <a href="#">Link</a>, 
+            <a href="#">Shop</a>, 
+            <a href="#">Packs</a> and 
+            <a href="#">Help</a> — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.
+        </h2>
+        <p>
+            Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.
+        </p>
+        </section>
+    </div> 
+    </body>
+    </html>
+
+    </body>
+    </html>
