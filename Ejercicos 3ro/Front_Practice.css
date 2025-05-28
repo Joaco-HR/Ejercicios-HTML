@@ -32,9 +32,19 @@ header {
 }
 
 .Barra2{
+  background-color: white;
+  width: 100%;
   padding: 1rem 2rem;
-  margin-bottom: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
+
+.Barra2.scroll-activo {
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .Barra2 ul {
   display: flex;
   justify-content: flex-start;
@@ -49,6 +59,7 @@ header {
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .Barra ul li a.activo, .Barra2 ul li a.activo{
@@ -79,6 +90,7 @@ header {
 
 .Texto p {
   font-size: 1.5rem;
+  margin-bottom: 5rem;
 }
 
 .Texto a {
@@ -90,4 +102,24 @@ header {
 .Texto img{
   height: 40rem;
   margin-bottom: 4rem;
+}
+
+.Imagen{
+  padding: 0;
+}
+
+.Imagen img{
+  background-color: #FFFF99;
+  display: flex;
+  align-items: start;
+  margin: 3rem;
+  padding: 3rem;
+  margin-bottom: 2;
+}
+
+.Cuadrado{
+  background-color: #FFFF99;
+  justify-content: end;
+  width: 400PX;
+  height: 400px;
 }
